@@ -12,9 +12,9 @@ libc = { family="glibc", version="2.17" }
 [dependencies]
 python = ">=3.12.0,<3.13"
 # Include the latest rattler-build fixes w.r.t. to patches handling
-rattler-build = ">=0.44.0"
-anaconda-client = ">=1.13.0"
+rattler-build = ">=0.60.0"
 cmake = "<4.0"
+rattler-index = ">=0.27.16"
 
 [target.win-64.dependencies]
 # patch is required by rattler-build
